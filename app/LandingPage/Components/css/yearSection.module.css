@@ -1,0 +1,10 @@
+.yearContainer {
+	margin: auto;
+}
+
+.hr {
+	width: 50px;
+	background-color: rgb(255, 12, 12);
+	border: none;
+	height: 4px;
+}
