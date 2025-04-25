@@ -1,9 +1,12 @@
+import Image from 'next/image';
+import styles from './css/nav.module.css';
+
 export default function Navbar() {
 	return (
 		<nav className="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
 			<div className="container-fluid">
 				<a className="navbar-brand offset-1" href="#">
-					Associates Fc
+					<Image src="/images/logo.jpeg" alt="Team logo" width={40} height={40} className={`${styles.logo}`} /> &nbsp; Associates Fc
 				</a>
 				<button
 					className="navbar-toggler"
