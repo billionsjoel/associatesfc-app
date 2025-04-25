@@ -1,0 +1,19 @@
+.footerBg {
+	background-color: #0f0f0f;
+}
+
+.ul-links > li {
+	padding: 0;
+	margin: 0.3rem 0 0 -1.8rem;
+	list-style-type: none;
+	text-align: left;
+}
+
+.ul-links > li > a {
+	text-decoration: none;
+	color: #6c757d;
+}
+
+.color-white {
+	color: #6c757d;
+}

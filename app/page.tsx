@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
 import Navbar from './LandingPage/Components/Navbar';
 import Carousel from './LandingPage/Components/Carousel';
+import Footer from './LandingPage/Components/Footer';
 
 export default function Home() {
 	useEffect(() => {
@@ -12,6 +13,7 @@ export default function Home() {
 		<div>
 			<Navbar></Navbar>
 			<Carousel></Carousel>
+			<Footer></Footer>
 		</div>
 	);
 }
