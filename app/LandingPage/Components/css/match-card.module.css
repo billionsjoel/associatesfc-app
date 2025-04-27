@@ -1,0 +1,21 @@
+.matchCard {
+	background-color: #1c1c1c;
+	color: white;
+	border-radius: 10px;
+	padding: 0.45rem; /* smaller padding */
+	max-width: 300px; /* control the width */
+	font-size: 0.775rem;
+}
+
+.teamLogo {
+	height: 30px;
+}
+
+.cardBtn {
+	font-size: 0.75rem !important; /* make button text smaller */
+	padding: 0.3rem 0.6rem !important; /* make button size smaller */
+}
+
+.cardTitle {
+	font-size: 0.775rem !important;
+}
