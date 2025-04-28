@@ -1,0 +1,11 @@
+.yearContainer {
+	padding: 4rem;
+}
+
+.hr {
+	width: 50px;
+	background-color: red;
+	opacity: 1;
+	border: none;
+	height: 4px;
+}
