@@ -32,7 +32,7 @@ export default function YearSection() {
 			<h4 className="offset-md-1 text-white">THIS YEAR AT ASSOCIATES</h4>
 			<div className="row mt-4 offset-md-1">
 				{matches.map((match, index) => (
-					<div key={index} className="col-md-3">
+					<div key={index} className="col-md-3 mt-4">
 						<MatchCard {...match} />
 					</div>
 				))}
