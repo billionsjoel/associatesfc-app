@@ -1,4 +1,5 @@
 import styles from './css/carousel.module.css';
+import Image from 'next/image';
 
 export default function Carousel() {
 	return (
@@ -10,16 +11,9 @@ export default function Carousel() {
 			</div>
 			<div className="carousel-inner">
 				<div className="carousel-item active">
-					<svg
-						className={`bd-placeholder-img ${styles.carouselContainer}`}
-						width="100%"
-						height="100%"
-						xmlns="http://www.w3.org/2000/svg"
-						aria-hidden="true"
-						preserveAspectRatio="xMidYMid slice"
-					>
-						<rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-					</svg>
+					<div className={`${styles.carouselWrapper}`}>
+						<div className={`${styles.carouselImage1}`}></div>
+					</div>
 					<div className="container">
 						<div className="carousel-caption text-start">
 							<h1>Join Associates FC.</h1>
@@ -33,16 +27,9 @@ export default function Carousel() {
 					</div>
 				</div>
 				<div className="carousel-item">
-					<svg
-						className={`bd-placeholder-img ${styles.carouselContainer}`}
-						width="100%"
-						height="100%"
-						xmlns="http://www.w3.org/2000/svg"
-						aria-hidden="true"
-						preserveAspectRatio="xMidYMid slice"
-					>
-						<rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-					</svg>
+					<div className={`${styles.carouselWrapper}`}>
+						<div className={`${styles.carouselImage2}`}></div>
+					</div>
 					<div className="container">
 						<div className="carousel-caption">
 							<h1>Not Just a Team But a Family.</h1>
@@ -56,16 +43,9 @@ export default function Carousel() {
 					</div>
 				</div>
 				<div className="carousel-item">
-					<svg
-						className={`bd-placeholder-img ${styles.carouselContainer}`}
-						width="100%"
-						height="100%"
-						xmlns="http://www.w3.org/2000/svg"
-						aria-hidden="true"
-						preserveAspectRatio="xMidYMid slice"
-					>
-						<rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-					</svg>
+					<div className={`${styles.carouselWrapper}`}>
+						<div className={`${styles.carouselImage3}`}></div>
+					</div>
 					<div className="container">
 						<div className="carousel-caption text-end">
 							<h1>Why You should Join Us.</h1>

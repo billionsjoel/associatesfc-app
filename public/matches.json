@@ -1,0 +1,46 @@
+[
+	{
+		"date": "11-07-2025",
+		"location": "Masaka",
+		"team1Logo": "/images/logo.jpeg",
+		"team1Name": "Associates FC",
+		"team2Logo": "https://img.logo.dev/toyota.com",
+		"team2Name": "Masaka FC",
+		"kickoff": "2:00 PM",
+		"result": "--",
+		"venue": "Masaka Sports Village"
+	},
+	{
+		"date": "20-07-2025",
+		"location": "Kampala",
+		"team1Logo": "/images/logo.jpeg",
+		"team1Name": "Associates FC",
+		"team2Logo": "https://img.logo.dev/tesla.com",
+		"team2Name": "Luwero",
+		"kickoff": "4:00 PM",
+		"result": "0-0",
+		"venue": "Kampala Stadium"
+	},
+	{
+		"date": "11-12-2024",
+		"location": "MagaMaga",
+		"team1Logo": "/images/logo.jpeg",
+		"team1Name": "Associates FC",
+		"team2Logo": "https://img.logo.dev/fulham.com",
+		"team2Name": "MagaMaga TC",
+		"kickoff": "4:00 PM",
+		"result": "1-1",
+		"venue": "Kampala Stadium"
+	},
+	{
+		"date": "11-12-2024",
+		"location": "Lugazi",
+		"team1Logo": "https://img.logo.dev/wrexham.com",
+		"team1Name": "Lugazi FC",
+		"team2Logo": "/images/logo.jpeg",
+		"team2Name": "Associates FC",
+		"kickoff": "4:00 PM",
+		"result": "1-1",
+		"venue": "Kinaawa Stadium"
+	}
+]
